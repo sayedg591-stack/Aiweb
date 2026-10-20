@@ -1,7 +1,7 @@
 javascript:(function(){
   // 🔒 MILITARY-GRADE ANTI-TAMPER & INSPECTION SHIELD
   try {
-    document.addEventListener('contextmenu', function(e) {
+    document.addEventListener('contextmenu', function(e) {  
       var t = e.target;
       if (t && t.closest && (t.closest('#ishak-trade-wrap') || t.closest('.ishak-dialog-modal') || t.closest('#ishak-hud-panel') || t.closest('#ishak-screen-scan-box'))) {
         e.preventDefault();
