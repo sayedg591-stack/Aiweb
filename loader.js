@@ -1,4 +1,4 @@
-javascript:(function(){
+ javascript:(function(){
   // 🔒 MILITARY-GRADE ANTI-TAMPER & INSPECTION SHIELD
   try {
     document.addEventListener('contextmenu', function(e) {
