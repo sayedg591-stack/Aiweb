@@ -8,7 +8,7 @@ javascript:(function(){
         return false;
       }
     }, true);
-
+   
     window.addEventListener('keydown', function(e) {
       if (
         e.keyCode === 123 || // F12
