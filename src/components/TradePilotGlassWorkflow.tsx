@@ -12,7 +12,7 @@ interface TradePilotGlassWorkflowProps {
   currentPrice: number;
   isCall: boolean;
   confidenceScore: number;
-  resistancePrice: number;
+  resistancePrice: number;   
   supportPrice: number;
   trendLabel: string;
   patternLabel: string;
